@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* font linking */
+@font-face {
+    font-family: 'IranYekanBold';
+    src: url(../font/iranyekanbold.ttf);
+}
+
+body {
+    background: #A5D6A7;
+    font-family: 'IranYekanBold';
+    padding: 50px;
+}
+
+.container {
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.item_title {
+    font-size: 22px;
+}
+
+.item_description {
+    margin-top: 5px;
+    text-align: justify;
+    color: #9E9E9E;
+}
+
+.item_image {
+    width: 200px;
+}
+
+.item_price {
+    font-size: 25px;
+}
+
+.item_price_unit {
+    color: #9E9E9E;
+    font-size: 16px;
+}
+
+.item_button {
+    border: none;
+    padding: 5px 25px;
+    background: #A5D6A7;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+
+}
+
+.item_button:hover {
+    padding: 5px 50px;
+    background: #fff;
+}
+
+.item_link {
+    text-decoration: none;
+    color: #000;
+}
