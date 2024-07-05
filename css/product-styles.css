@@ -3,15 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* font linking */
-@font-face {
-    font-family: 'IranYekanBold';
-    src: url(../font/iranyekanbold.ttf);
-}
+
 
 body {
     background: #A5D6A7;
-    font-family: 'IranYekanBold';
     padding: 50px;
     display: flex;
     flex-direction: column;
